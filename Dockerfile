@@ -9,7 +9,7 @@ FROM debian:latest
 
 MAINTAINER hihouhou < hihouhou@hihouhou.com >
 
-ENV IMAPSYNC_VERSION imapsync-1.836
+ENV IMAPSYNC_VERSION imapsync-1.882
 
 # Update & install packages for imapsync dep
 RUN apt-get update && \
